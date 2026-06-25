@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body class="dark-mode">
+    <header>
+        <div class="header-container">
+            <nav class="nav-header">
+                <ul class="header-nav-list">
+                    <li><a href="index.html" class="header-nav-link">Главная</a></li>
+                    <li><a href="project.html" class="header-nav-link">Проекты</a></li>
+                    <li><a href="reviews.html" class="header-nav-link active">Отзывы</a></li>
+                    <li><a href="about.html" class="header-nav-link">Обо мне</a></li>
+                </ul>
+            </nav>
+            <div class="header-settings">
+                <label class="theme-switch" for="theme-checkbox">
+                    <input type="checkbox" id="theme-checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <main class="reviews-page">
+        <section class="page-header">
+            <h1>Отзывы <span class="accent-text">клиентов</span></h1>
+            <p>Реальные истории и впечатления людей, с которыми я работал.</p>
+        </section>
+
+        <section class="projects-filter">
+            <button class="filter-btn active" data-filter="all">Все</button>
+            <button class="filter-btn" data-filter="js">Javascript</button>
+            <button class="filter-btn" data-filter="py">Python</button>
+            <button class="filter-btn" data-filter="veb">Веб</button>
+            <button class="filter-btn" data-filter="bots">Тг боты</button>
+            <button class="filter-btn" data-filter="pars">Парсеры</button>
+            <button class="filter-btn" data-filter="sbor">Сбор и аналитика данных</button>
+        </section>
+
+        <section class="reviews-full-grid">
+            <article class="review-card-full" data-category="py bots">
+                <div class="review-header">
+                    <div class="review-info">
+                        <h3>Алексей</h3>
+                        <span class="review-role">Битмейкер</span>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <span class="review-date">19 декабря 2025</span>
+                </div>
+                <p class="review-text">"Очень хорошо выполняет свою работу, переделывал, добавлял много функций и делал правки по моим желаниям. Терпеливый и работящий специалист, респект, спасибо за работу ❤️🤝"</p>
+                <div class="review-tags">
+                    <span class="review-tag">Тг бот</span>
+                    <span class="review-tag">Автоматизация</span>
+                </div>
+            </article>
+
+            <article class="review-card-full" data-category="py bots">
+                <div class="review-header">
+                    <div class="review-info">
+                        <h3>Игорь</h3>
+                        <span class="review-role">Монтажер</span>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <span class="review-date">27 декабря 2025</span>
+                </div>
+                <p class="review-text">"Всё быстро сделал и порадовал ценой. Рекомендую!"</p>
+                <div class="review-tags">
+                    <span class="review-tag">Тг бот</span>
+                    <span class="review-tag">Автоматизация</span>
+                </div>
+            </article>
+
+            <article class="review-card-full" data-category="sbor">
+                <div class="review-header">
+                    <div class="review-info">
+                        <h3>Максим</h3>
+                        <span class="review-role"></span>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <span class="review-date">23 июня 2026</span>
+                </div>
+                <p class="review-text">"Благодарю за качественную работу, отличная база! Все быстро и без лишних вопросов"</p>
+                <div class="review-tags">
+                    <span class="review-tag">Сбор данных</span>
+                    <span class="review-tag">Аналитика данных</span>
+                </div>
+            </article>
+
+            <article class="review-card-full" data-category="py">
+                <div class="review-header">
+                    <div class="review-info">
+                        <h3>Глеб</h3>
+                        <span class="review-role"></span>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <span class="review-date">1 июня 2026</span>
+                </div>
+                <p class="review-text">"все в порядке. помог даже настроить бот"</p>
+                <div class="review-tags">
+                    <span class="review-tag">Скрипт</span>
+                    <span class="review-tag">Автоматизация</span>
+                    <span class="review-tag">Доработка</span>
+                </div>
+            </article>
+        </section>
+
+        <section class="leave-review">
+            <h2>Хотите оставить отзыв?</h2>
+            <p>Если мы уже работали вместе — напишите мне, и я добавлю ваш отзыв на страницу.</p>
+            <a href="contacts.html" class="btn btn-primary">Написать мне</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="https://t.me/Ssstolb" target="_blank" rel="noopener noreferrer">Telegram</a>
+                <a href="https://github.com/Bogdan-Stolb" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="contacts.html">Другие контакты</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body class="dark-mode">
+    <header>
+        <div class="header-container">
+            <nav class="nav-header">
+                <ul class="header-nav-list">
+                    <li><a href="index.html" class="header-nav-link">Главная</a></li>
+                    <li><a href="project.html" class="header-nav-link">Проекты</a></li>
+                    <li><a href="reviews.html" class="header-nav-link active">Отзывы</a></li>
+                    <li><a href="about.html" class="header-nav-link">Обо мне</a></li>
+                </ul>
+            </nav>
+            <div class="header-settings">
+                <label class="theme-switch" for="theme-checkbox">
+                    <input type="checkbox" id="theme-checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <main class="reviews-page">
+        <section class="page-header">
+            <h1>Отзывы <span class="accent-text">клиентов</span></h1>
+            <p>Реальные истории и впечатления людей, с которыми я работал.</p>
+        </section>
+
+        <section class="projects-filter">
+            <button class="filter-btn active" data-filter="all">Все</button>
+            <button class="filter-btn" data-filter="js">Javascript</button>
+            <button class="filter-btn" data-filter="py">Python</button>
+            <button class="filter-btn" data-filter="veb">Веб</button>
+            <button class="filter-btn" data-filter="bots">Тг боты</button>
+            <button class="filter-btn" data-filter="pars">Парсеры</button>
+            <button class="filter-btn" data-filter="sbor">Сбор и аналитика данных</button>
+        </section>
+
+        <section class="reviews-full-grid">
+            <article class="review-card-full" data-category="py bots">
+                <div class="review-header">
+                    <div class="review-info">
+                        <h3>Алексей</h3>
+                        <span class="review-role">Битмейкер</span>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <span class="review-date">15 мая 2026</span>
+                </div>
+                <p class="review-text">"Очень хорошо выполняет свою работу, переделывал, добавлял много функций и делал правки по моим желаниям. Терпеливый и работящий специалист, респект, спасибо за работу ❤️🤝"</p>
+                <div class="review-tags">
+                    <span class="review-tag">Бот</span>
+                    <span class="review-tag">Автоматизацию</span>
+                </div>
+            </article>
+
+            <article class="review-card-full" data-category="py bots">
+                <div class="review-header">
+                    <div class="review-info">
+                        <h3>Игорь</h3>
+                        <span class="review-role">Монтажер</span>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <span class="review-date">2 июня 2026</span>
+                </div>
+                <p class="review-text">"Всё быстро сделал и порадовал ценой. Рекомендую!"</p>
+                <div class="review-tags">
+                    <span class="review-tag">Бот</span>
+                    <span class="review-tag">Автоматизация</span>
+                </div>
+            </article>
+
+            <article class="review-card-full" data-category="py sbor">
+                <div class="review-header">
+                    <div class="review-info">
+                        <h3>Максим</h3>
+                        <span class="review-role"></span>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <span class="review-date">20 июня 2026</span>
+                </div>
+                <p class="review-text">"Благодарю за качественную работу, отличная база! Все быстро и без лишних вопросов"</p>
+                <div class="review-tags">
+                    <span class="review-tag">Сайт</span>
+                    <span class="review-tag">Telegram-бот</span>
+                </div>
+            </article>
+
+            <article class="review-card-full" data-category="py sbor">
+                <div class="review-header">
+                    <div class="review-info">
+                        <h3>Глеб</h3>
+                        <span class="review-role"></span>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <span class="review-date">10 июня 2026</span>
+                </div>
+                <p class="review-text">"все в порядке. помог даже настроить бот"</p>
+                <div class="review-tags">
+                    <span class="review-tag">Скрипт</span>
+                    <span class="review-tag">Автоматизация</span>
+                    <span class="review-tag">Доработка</span>
+                </div>
+            </article>
+        </section>
+
+        <section class="leave-review">
+            <h2>Хотите оставить отзыв?</h2>
+            <p>Если мы уже работали вместе — напишите мне, и я добавлю ваш отзыв на страницу.</p>
+            <a href="contacts.html" class="btn btn-primary">Написать мне</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="https://t.me/Ssstolb" target="_blank" rel="noopener noreferrer">Telegram</a>
+                <a href="https://github.com/Bogdan-Stolb" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="contacts.html">Другие контакты</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

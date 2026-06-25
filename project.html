@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body class="dark-mode">
+    
+    <header>
+        <div class="header-container">
+            <nav class="nav-header">
+                <ul class="header-nav-list">
+                    <li><a href="index.html" class="header-nav-link">Главная</a></li>
+                    <li><a href="project.html" class="header-nav-link">Проекты</a></li>
+                    <li><a href="reviews.html" class="header-nav-link">Отзывы</a></li>
+                    <li><a href="about.html" class="header-nav-link">Обо мне</a></li>
+                </ul>
+            </nav>
+            <div class="header-settings">
+                <label class="theme-switch" for="theme-checkbox">
+                    <input type="checkbox" id="theme-checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <main class="projects-page"> 
+        
+        <section class="page-header">
+            <h1>Мои <span class="accent-text">проекты:</span></h1>
+        </section>
+
+        <section class="projects-filter">
+            
+            <button class="filter-btn active" data-filter="all">Все</button>
+            <button class="filter-btn" data-filter="js">Javascript</button>
+            <button class="filter-btn" data-filter="py">Python</button>
+            <button class="filter-btn" data-filter="veb">Веб</button>
+            <button class="filter-btn" data-filter="bots">Тг боты</button>
+            <button class="filter-btn" data-filter="pars">Парсеры</button>
+            <button class="filter-btn" data-filter="sbor">Сбор и аналитика данных</button>
+        
+        </section>
+
+        <section class="project-grid">
+            
+            <article class="project-card" data-category="py pars sbor">
+                <div class="project-icon"></div>
+                <h3 class="project-title">Парсер для авито</h3>
+                <p class="project-description">Собирает данные о нужном товаре(название,цену,город,). Выгрузка данных в Excel</p>                
+                <div class="project-tags">
+                    <span class="project-tag">Python</span>
+                    <span class="project-tag">Selenium</span>
+                    <span class="project-tag">Автоматизация</span>
+                </div>
+                <a href="https://github.com/Bogdan-Stolb/parser_avito" target="_blank" rel="noopener noreferrer" class="project-link">
+                    Смотреть на Github →
+                </a>
+            </article>
+
+            <article class="project-card" data-category="py pars sbor">
+                <div class="project-icon"></div>
+                <h3 class="project-title">Парсер для Я.карт</h3>
+                <p class="project-description">Собирает данные о нужной компании. Выгрузка данных в Excel</p>                
+                <div class="project-tags">
+                    <span class="project-tag">Python</span>
+                    <span class="project-tag">Selenium</span>
+                    <span class="project-tag">Автоматизация</span>
+                </div>
+                <a href="https://github.com/Bogdan-Stolb/Yandex-Parser" target="_blank" rel="noopener noreferrer" class="project-link">
+                    Смотреть на Github →
+                </a>
+            </article>
+
+        </section>
+
+        <section class="projects-cta">
+            <h2>Нужен похожий проект?</h2>
+            <p>Могу реализовать для вас парсер, бота, сайт или автоматизацию. Напишите — обсудим задачу.</p>
+            <a href="contacts.html" class="btn btn-primary">Обсудить проект</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="https://t.me/Ssstolb" target="_blank" rel="noopener noreferrer">Telegram</a>
+                <a href="https://github.com/Bogdan-Stolb" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="contacts.html">Другие контакты</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

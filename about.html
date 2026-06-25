@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body class="dark-mode">
+    <header>
+        <div class="header-container">
+            <nav class="nav-header">
+                <ul class="header-nav-list">
+                    <li><a href="index.html" class="header-nav-link">Главная</a></li>
+                    <li><a href="project.html" class="header-nav-link">Проекты</a></li>
+                    <li><a href="reviews.html" class="header-nav-link">Отзывы</a></li>
+                    <li><a href="about.html" class="header-nav-link active">Обо мне</a></li>
+                </ul>
+            </nav>
+            <div class="header-settings">
+                <label class="theme-switch" for="theme-checkbox">
+                    <input type="checkbox" id="theme-checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <main class="about-page">
+        <section class="about-hero">
+            <div class="about-hero-image">
+                <img src="photo_2026-06-17_01-34-57.jpg" alt="Stolb">
+            </div>
+            <div class="about-hero-content">
+                <h1>Привет, я <span class="accent-text">Stolb</span></h1>
+                <p class="about-role">Python / JavaScript разработчик</p>
+                <p class="about-tagline">3 года в программировании. Превращаю идеи в работающий код.</p>
+            </div>
+        </section>
+
+        <section class="about-block">
+            <h2>Немного <span class="accent-text">обо мне</span></h2>
+            <p>В программировании я уже 4 года. Начинал с простых скриптов для себя и друзей - писал Telegram-ботов, автоматизировал рутину, разбирался в том, как устроены веб-страницы изнутри. Сейчас вышел на фриланс и помогаю клиентам решать задачи любой сложности: от парсера данных до полноценного сайта.</p>
+            <p>Мой подход - делать чисто, быстро и по делу. Не беру заказ, если не уверен, что смогу выполнить его качественно. Ценю дедлайны, обратную связь и адекватных людей по обе стороны экрана.</p>
+        </section>
+
+        <section class="about-block">
+            <h2>Чем <span class="accent-text">занимаюсь</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏎️</div>
+                    <h3>Скрипты и автоматизация</h3>
+                    <p>Автоматизирую всё, что можно ускорить: от кликов по координатам до сложных бизнес-процессов. Python, Playwright, Selenium, PyAutoGUI.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🤖</div>
+                    <h3>Telegram-боты</h3>
+                    <p>Боты под ключ: приём заявок, рассылки, интеграции с API, админ-панели, базы данных. aiogram, pyTelegramBotAPI.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Веб-разработка и вёрстка</h3>
+                    <p>Адаптивные сайты, лендинги, визитки. Чистый HTML/CSS/JS, анимации, интерактив. Работаю по макетам из Figma.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🐙</div>
+                    <h3>Парсеры</h3>
+                    <p>Сбор данных с любых сайтов: маркетплейсы, карты, соцсети. Выгрузка в Excel/CSV/БД. Обход защит, работа с динамикой.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Сбор и аналитика данных</h3>
+                    <p>Парсинг → очистка → структурирование → отчёт. Pandas, Matplotlib, работа с большими объёмами данных.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Доработка и поддержка</h3>
+                    <p>Починить баг, добавить функцию, переписать кусок кода, настроить чужой проект. Берусь за то, от чего отказались другие.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-block">
+            <h2>Образование <span class="accent-text">и бэкграунд</span></h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <div class="education-info">
+                        <h3>Южный Федеральный Университет (ЮФУ)</h3>
+                        <p class="education-sub">Институт математики, механики и компьютерных наук им. И.И. Воровича</p>
+                        <p class="education-spec">Направление: 02.03.02 «Фундаментальная информатика и информационные технологии»</p>
+                        <p class="education-profile">Профиль: «Компьютерные науки и прикладной искусственный интеллект»</p>
+                        <p class="education-desc">Глубокая математическая подготовка, алгоритмы, структуры данных, машинное обучение, нейросети, анализ данных, языки программирования, базы данных, кибербезопасность.</p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">🪗</div>
+                    <div class="education-info">
+                        <h3>Музыкальная школа</h3>
+                        <p class="education-sub">Отделение классической и эстрадной музыки, аккордеон</p>
+                        <p class="education-spec">Закончил на красный аттестат (8 лет обучения)</p>
+                        <p class="education-desc">Музыка научила меня дисциплине, терпению и вниманию к деталям — тем самым качествам, которые я применяю в каждом проекте.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-block">
+            <h2>Мои <span class="accent-text">принципы</span></h2>
+            <div class="principles-grid">
+                <div class="principle">
+                    <span class="principle-number">01</span>
+                    <h3>Качество важнее скорости</h3>
+                    <p>Лучше сделать хорошо один раз, чем трижды переделывать.</p>
+                </div>
+                <div class="principle">
+                    <span class="principle-number">02</span>
+                    <h3>Чистый код</h3>
+                    <p>Пишу так, чтобы через месяц сам же и разобрался.</p>
+                </div>
+                <div class="principle">
+                    <span class="principle-number">03</span>
+                    <h3>Дедлайны святы</h3>
+                    <p>Сказал «в пятницу» — значит в пятницу.</p>
+                </div>
+                <div class="principle">
+                    <span class="principle-number">04</span>
+                    <h3>На связи</h3>
+                    <p>Отвечаю быстро, держу в курсе на каждом этапе.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="final-cta">
+            <h2>Нужен разработчик?</h2>
+            <p>Если у вас есть задача - давайте обсудим. Отвечаю в течение нескольких часов.</p>
+            <a href="contacts.html" class="btn btn-primary">Связаться со мной</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="https://t.me/Ssstolb" target="_blank" rel="noopener noreferrer">Telegram</a>
+                <a href="https://github.com/Bogdan-Stolb" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="contacts.html">Другие контакты</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

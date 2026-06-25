@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body class="dark-mode">
+    <header>
+        <div class="header-container">
+            <nav class="nav-header">
+                <ul class="header-nav-list">
+                    <li><a href="index.html" class="header-nav-link">Главная</a></li>
+                    <li><a href="project.html" class="header-nav-link">Проекты</a></li>
+                    <li><a href="reviews.html" class="header-nav-link">Отзывы</a></li>
+                    <li><a href="about.html" class="header-nav-link">Обо мне</a></li>
+                </ul>
+            </nav>
+            <div class="header-settings">
+                <label class="theme-switch" for="theme-checkbox">
+                    <input type="checkbox" id="theme-checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Привет, я <span class="accent-text">Stolb</span></h1>
+                <p class="hero-subtitle">Python / JavaScript разработчик</p>
+                <p class="hero-description">
+                    Создаю быстрые, удобные и эстетичные веб-решения. 
+                    Превращаю сложные задачи в чистый и поддерживаемый код. 
+                    Всегда открыт к интересным проектам и сотрудничеству.
+                </p>
+                <div class="hero-buttons">
+                    <a href="projects.html" class="btn btn-primary">Мои проекты</a>
+                    <a href="#contacts" class="btn btn-secondary">Связаться со мной</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="photo_2026-06-17_01-34-57.jpg" alt="Мое фото">
+            </div>
+        </section>
+
+        <section class="about-section">
+            <h2>Чем я занимаюсь</h2>
+            <p>Мой основной фокус — это разработка статических и динамических веб-приложений, автоматизация процессов , сбор и аналитика данных, создание парсеров. Я ценю минимализм в дизайне и эффективность в коде.</p>
+            
+            <div class="skills-container">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">JavaScript (ES6+)</span>
+                <span class="skill-tag">HTML5 & CSS3</span>
+                <span class="skill-tag">Git & GitHub</span>
+                <span class="skill-tag">REST API</span>
+                <span class="skill-tag">Адаптивная верстка</span>
+                <span class="skill-tag">Selenium</span>
+                <span class="skill-tag">Beatifulsoap4</span>
+                <span class="skill-tag">Playwright</span>
+                <span class="skill-tag">Puppeteer</span>
+                <span class="skill-tag">Разработка тг ботов</span>
+                <span class="skill-tag">Сбор и аналитика данных</span>
+            </div>
+        </section>
+
+        <section class="reviews-preview">
+            <h2>Что говорят клиенты</h2>
+            <div class="reviews-grid">
+                <article class="review-card">
+                    <div class="review-header">
+                        <div class="review-info">
+                            <h3>Алексей</h3>
+                            <span class="review-role">Битмейкер</span>
+                        </div>
+                    </div>
+                    <p class="review-text">"Очень хорошо выполняет свою работу, переделывал, добавлял много функций и делал правки по моим желаниям. Терпеливый и работящий специалист, респект, спасибо за работу ❤️🤝"</p>
+                </article>
+
+                <article class="review-card">
+                    <div class="review-header">
+                        <div class="review-info">
+                            <h3>Игорь</h3>
+                            <span class="review-role">Монтажер</span>
+                        </div>
+                    </div>
+                    <p class="review-text">"Всё быстро сделал и порадовал ценой. Рекомендую!"</p>
+                </article>
+            </div>
+            <div class="reviews-cta">
+                <a href="reviews.html" class="btn btn-secondary">Посмотреть все отзывы →</a>
+            </div>
+        </section>
+
+        <section class="final-cta">
+            <h2>Готовы обсудить ваш проект?</h2>
+            <p>Напишите мне, и мы превратим вашу идею в работающий продукт.</p>
+            <a href="contacts.html" class="btn btn-primary">Перейти к контактам</a>
+        </section>
+
+    </main>
+        
+    <footer>
+        <div class="footer-container">
+            <p>&copy; <span id="current-year"></span> Stolb. Все права защищены.</p>
+            <div class="footer-links">
+                <a href="https://t.me/Ssstolb" target="_blank" rel="noopener noreferrer">Telegram</a>
+                <a href="https://github.com/Bogdan-Stolb" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="contacts.html">Другие контакты</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
