@@ -43,6 +43,8 @@
             <button class="filter-btn" data-filter="bots">Тг боты</button>
             <button class="filter-btn" data-filter="pars">Парсеры</button>
             <button class="filter-btn" data-filter="sbor">Сбор и аналитика данных</button>
+            <button class="filter-btn" data-filter="vk_api">Vk api</button>
+            <button class="filter-btn" data-filter="vk_bot">Vk bot</button>
         
         </section>
 
@@ -76,16 +78,15 @@
                 </a>
             </article>
 
-            <article class="project-card" data-category="py pars sbor">
+            <article class="project-card" data-category="py vk_api">
                 <div class="project-icon"></div>
-                <h3 class="project-title">М</h3>
-                <p class="project-description">Собирает данные о нужной компании. Выгрузка данных в Excel</p>                
+                <h3 class="project-title">VK-бот для автовыдачи промокодов новым подписчикам</h3>
+                <p class="project-description">скрипт представляет собой веб-сервер на Flask для обработки Callback API ВКонтакте. При событии group_join он отправляет новому подписчику личное сообщение с персональной реферальной ссылкой на сайт 1rakovaya.ru для получения скидки 10%. Реализованы эндпоинты /vk-webhook для приема событий и /health для проверки доступности, логирование настроено через стандартный модуль logging, конфигурация вынесена в переменные окружения для удобства деплоя.</p>                
                 <div class="project-tags">
                     <span class="project-tag">Python</span>
-                    <span class="project-tag">Selenium</span>
-                    <span class="project-tag">Автоматизация</span>
+                    <span class="project-tag">VK API</span>
                 </div>
-                <a href="https://github.com/Bogdan-Stolb/Yandex-Parser" target="_blank" rel="noopener noreferrer" class="project-link">
+                <a href="https://github.com/Bogdan-Stolb/vk_bot" target="_blank" rel="noopener noreferrer" class="project-link">
                     Смотреть на Github →
                 </a>
             </article>
